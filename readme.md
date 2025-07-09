@@ -19,7 +19,7 @@
 ## 🖼️ Screenshots
 
 ### 🏫 Explore Campus Clubs
-![CampusConnect About ](re_images/example2.png)
-![Explore Clubs](re_images/example3.png)
+![CampusConnect About ](re_Images/example2.png)
+![Explore Clubs](re_Images/example3.png)
 
 
