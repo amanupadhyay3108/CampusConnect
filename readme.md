@@ -4,7 +4,7 @@
 
 ---
 
-![CampusConnect Banner](re_images/example1.png)
+![CampusConnect Banner](re_Images/example1.png)
 
 ## 🚀 Features
 
@@ -21,5 +21,8 @@
 ### 🏫 Explore Campus Clubs
 ![CampusConnect About ](re_Images/example2.png)
 ![Explore Clubs](re_Images/example3.png)
+
+CampusConnect – A platform centralizing college club info for students. [Live Demo](https://campus-connect-pied.vercel.app/)
+
 
 
