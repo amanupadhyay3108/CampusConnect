@@ -1,17 +1,21 @@
 // src/firebase.js
-import { initializeApp } from 'firebase/app'
-import { getFirestore } from 'firebase/firestore'
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA...realkey...",
-  authDomain: "campusjoin.firebaseapp.com",
-  projectId: "campusjoin",
-  storageBucket: "campusjoin.appspot.com",
-  messagingSenderId: "123456789012",
-  appId: "1:123456789012:web:abcd1234efgh5678"
-}
+  apiKey: "AIzaSyDlom6hzXYDRsMAyntnQq412IOJr7_R4vg",
+  authDomain: "drowssiness-detection.firebaseapp.com",
+  projectId: "drowssiness-detection",
+  storageBucket: "drowssiness-detection.firebasestorage.app",
+  messagingSenderId: "720048322667",
+  appId: "1:720048322667:web:c318ace8067788d1b4d92e",
+  measurementId: "G-K9NZFMZYT6"
+};
 
-const app = initializeApp(firebaseConfig)
-const db = getFirestore(app)
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
-export default db
+// Initialize services
+const analytics = getAnalytics(app);
+export const db = getFirestore(app);
