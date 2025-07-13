@@ -9,7 +9,7 @@ const About = () => {
     <section
   className="bg-cover bg-center text-white py-20 px-6 text-center relative"
   style={{
-    backgroundImage: "url('/src/assets/campusjoin.jpg')",
+    backgroundImage: "url('/assets/campusjoin.jpg')",
   }}
 >
   <div className="bg-black bg-opacity-50 absolute inset-0"></div>

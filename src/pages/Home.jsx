@@ -1,9 +1,9 @@
 // src/pages/Home.jsx
 import React from 'react'
 import { Link } from 'react-router-dom'
-import clubImg from '../assets/Clubs.jpg'
-import eventImg from '../assets/events.jpeg'
-import fameImg from '../assets/halloffame.jpeg'
+import clubImg from '/assets/Clubs.jpg'
+import eventImg from '/assets/events.jpeg'
+import fameImg from '/assets/halloffame.jpeg'
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
   {/* Background Image */}
   <div
     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-    style={{ backgroundImage: "url('/src/assets/camp.png')" }}
+    style={{ backgroundImage: "url('/assets/camp.png')" }}
   ></div>
 
   {/* Dark Overlay */}
