@@ -6,7 +6,7 @@ const clubsData = [
     name: 'Code Warriors',
     category: 'Technical',
     description: 'A community of passionate coders and developers building real-world apps.',
-    image: '/src/assets/code-club.png',
+    image: '/assets/code-club.png',
   },
   {
     name: 'Artistry Hub',
