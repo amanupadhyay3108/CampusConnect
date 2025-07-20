@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import {
   FaUsers,
   FaTrophy,
@@ -70,12 +71,12 @@ function WhyJoin() {
       {/* CTA */}
       <div className="text-center mt-14">
         <p className="text-lg text-gray-700 mb-4">Ready to unlock the best of your college life?</p>
-        <a
-          href="/clubs"
+        <Link
+          to="/clubs"
           className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-medium hover:bg-blue-700 transition"
         >
           Explore Clubs
-        </a>
+        </Link>
       </div>
     </div>
   )

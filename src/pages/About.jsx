@@ -1,5 +1,6 @@
 // src/pages/About.jsx
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -67,12 +68,18 @@ const About = () => {
         <p className="text-lg mb-6 text-gray-700">
           Discover your interests, build your profile, and contribute to something amazing on campus.
         </p>
-        <a
+        {/* <a
           href="/clubs"
           className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition font-medium"
         >
           Explore Clubs Now
-        </a>
+        </a> */}
+         <Link
+          to="/clubs"
+          className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition font-medium"
+        >
+          Explore Clubs Now
+         </Link>
       </section>
     </div>
   )
